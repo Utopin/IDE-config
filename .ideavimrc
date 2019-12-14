@@ -1,0 +1,32 @@
+let mapleader = ","
+
+inoremap jj <Esc>
+inoremap <Esc> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap H ^
+nnoremap L $
+noremap J <c-d>
+noremap K <c-u>
+
+nnoremap <leader>H H
+nnoremap <leader>L L
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gi :action GotoImplementation<CR>
+noremap gs :action GotoSuperMethod<CR>
+nnoremap <leader>r :action Replace<CR>
+nnoremap <leader>\| :vsplit<CR>
+nnoremap <leader>- :split<CR>
+nnoremap <leader>re :action RenameElement<CR>
+nnoremap <leader>o :action OverrideMethods<CR>
+
+set keep-english-in-normal
+set showmode
+set clipboard=unnamed
+set surround
